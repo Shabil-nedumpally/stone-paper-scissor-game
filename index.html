@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone paper scissor</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+
+            <h1 style="margin-top: 5%;">STONE PAPPER SCISSOR</h1>
+            <div id="winlose" ><h4 ></h4></div>
+
+           <div class="board">
+
+            <h3 id="userboard">user score : </h3>
+           </div>
+           <div class="board1">
+            <h3 id="computerboard">cpu score : </h3>
+
+        </div>
+    
+            
+            <div class="user">
+
+                <h2 style="font-family: sans-serif;text-align: center; margin-top: 10%;" >player</h2>
+
+
+                <div class="userDisplay" id="ud"></div>
+                <h4 id="userScore" ></h4>     
+            </div>
+
+            <div class="computer">
+                <h2 style="font-family: sans-serif;text-align: center; margin-top: 10%;" >computer</h2>
+
+
+                <div class="computerDisplay" id="cd">
+
+                </div>
+                <h4 id="computerScore" ></h4>
+
+
+
+            </div>
+
+
+            <div class="stone" id="stone" onclick="stoneClick()">
+                <img src="https://static.thenounproject.com/png/88661-200.png" alt="">
+
+
+            </div>
+
+            <div class="stone" id="stone1" onclick="paperClick()">
+                <img src="https://static.thenounproject.com/png/477912-200.png" alt="">
+
+
+            </div>
+
+            <div class="stone" id="stone2" onclick="scissorClick()">
+                <img src="https://static.thenounproject.com/png/88666-200.png" alt="">
+
+
+            </div>
+            <div class="stone2" onclick="resetClick()">
+                <img src="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png" alt="">
+
+
+            </div>
+        </div>
+
+        <h5 style="color: white;font-family: sans-serif;opacity: 0.7;">&#169; shabil nedumpally</h5>
+
+
+
+
+    </div>
+
+
+    <script src="script.js">
+
+    </script>
+
+    
+</body>
+</html>
